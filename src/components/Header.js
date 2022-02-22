@@ -8,7 +8,7 @@ function Header() {
       const [burgerStatus, setBurgerStatus] = useState(false);
   return (
     <Container>
-      <a>
+      <a href="#top">
         <img src="/images/logo.svg" alt="" />
       </a>
 
