@@ -13,15 +13,15 @@ function Header() {
       </a>
 
       <Menu>
-           <a href="#">Model S</a>
-           <a href="#">Model 3</a>
-           <a href="#">Model X</a>
-           <a href="#">Model Y</a>
+           <a href="/Home">Model S</a>
+           <a href="/Home">Model 3</a>
+           <a href="/Home">Model X</a>
+           <a href="/Home">Model Y</a>
 
       </Menu>
       <RightMenu>
-          <a href="#">Shop</a>
-          <a href="#">Tesla Account</a>
+          <a href="/Home">Shop</a>
+          <a href="/Home">Tesla Account</a>
           <CustomMenu onClick={()=>setBurgerStatus(true)} />
 
           
@@ -31,12 +31,12 @@ function Header() {
 
          <CustomClose onClick={()=>setBurgerStatus(false)}/>
          </CloseWrapper>
-      <li><a href="#">Existing Inventory</a></li>
-      <li><a href="#">Used Inventory</a></li>
-      <li><a href="#">Trade-in</a></li>
-      <li><a href="#">Cybertruck</a></li>
-      <li><a href="#">Roadaster</a></li>
-      <li><a href="#">Existing Inventory</a></li>
+      <li><a href="/Home">Existing Inventory</a></li>
+      <li><a href="/Home">Used Inventory</a></li>
+      <li><a href="/Home">Trade-in</a></li>
+      <li><a href="/Home">Cybertruck</a></li>
+      <li><a href="/Home">Roadaster</a></li>
+      <li><a href="/Home">Existing Inventory</a></li>
       </BurgerNav>
     </Container>
   )
